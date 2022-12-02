@@ -14,7 +14,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://comfy-peony-92c203.netlify.app/registration", formData)
+      .post("https://to-do-list-be.vercel.app/registration", formData)
       .then((res) => {
         alert("Registration success!");
         navigate("/login");

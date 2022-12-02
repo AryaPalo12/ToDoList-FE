@@ -21,7 +21,7 @@ const AddModal = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://comfy-peony-92c203.netlify.app/dashboard/lists/", texts)
+      .post("https://to-do-list-be.vercel.app//dashboard/lists/", texts)
       .then((res) => {
         dispatch(setCloseModal());
       })

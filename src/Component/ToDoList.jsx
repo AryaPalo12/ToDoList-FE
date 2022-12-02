@@ -32,7 +32,7 @@ const ToDoList = (props) => {
     const confrim = window.confirm("Are you sure to delete this entry?");
     if (confrim) {
       axios
-        .delete(`https://comfy-peony-92c203.netlify.app/dashboard/lists/${e.currentTarget.value}`,)
+        .delete(`https://to-do-list-be.vercel.app/dashboard/lists/${e.currentTarget.value}`,)
         .then((res) => {
           fetchData();
         })
