@@ -1,0 +1,68 @@
+.white-font{
+    color: white !important;
+}
+
+.input-form {
+  background-color: rgba(218, 112, 214, 0);
+  color: white;
+  border: none !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.575) !important;
+  border-radius: 0 !important;
+}
+
+.input-form::placeholder {
+  color: white;
+}
+
+.input-form:focus {
+  background-color: rgba(218, 112, 214, 0);
+  color: white;
+  box-shadow: none !important;
+  border-bottom: 2px solid rgb(255, 255, 255) !important;
+}
+
+.box-color {
+  background: rgb(39, 98, 223);
+  background: linear-gradient(
+    180deg,
+    rgba(39, 98, 223, 0.882773092147015) 15%,
+    rgba(69, 34, 195, 0.7511204310825893) 60%,
+    rgba(212, 45, 253, 0.5410363974691439) 90%
+  );
+  border-radius: 10px;
+}
+
+.button-center {
+  margin: auto;
+  font-weight: 600;
+  border-radius: 25px;
+  color: rgb(39, 38, 38);
+}
+
+.button-center:hover {
+    color: black!important;
+    font-size: 105%;
+}
+
+.no-decoration a{
+    color: white;
+    text-decoration: none!important
+}
+
+.added-padding {
+    padding: 10px 30px!important;
+}
+
+.background-img2 {
+    background-image: url('../shared/Images/background2.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode:multiply;
+    background-size:cover ;
+    height: 95vh;
+}
+
+.no-border{
+  border: none !important;
+  border-radius: 10px!important;
+}

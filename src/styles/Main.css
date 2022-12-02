@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tillana:wght@500&display=swap');
+
+.background-img{
+    background-image: url('../shared/Images/Background.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode:multiply;
+    background-size: cover;
+    height: 90vh;
+}
+
+.page-right{
+    background-color: rgb(187, 85, 187, 0.9);
+    padding: 0;
+    min-height: 90vh!important;
+    border-radius: 8px;
+}
+
+.green-color{
+    color:rgb(102, 243, 20);
+}
+
+.blue-color{
+    color:rgba(58, 240, 247, 0.973);
+}
+
+.yellow-color{
+    color:rgba(253, 255, 123, 0.918);
+}
+
+.red-color{
+    color:rgb(253, 38, 0);
+}
+
+.writing2{
+    font-family: 'Kalam';
+    font-weight: 200;
+    font-size: 1.7em;
+    text-decoration: none!important;
+}
+
+.writing2 a{
+    color: white;
+    text-decoration: none!important;
+}
+
+.writing2 a:hover{
+    color: rgb(240, 191, 99);
+    font-size: larger;
+}
+.writing{
+    font-family: 'Tillana';
+    font-weight: 300;
+}
+
+.main-margin{
+    margin-top: 25%;
+    margin-left: 20%;
+    color: white
+}
+
+.margin-footer{
+    margin-top: 50%;
+}

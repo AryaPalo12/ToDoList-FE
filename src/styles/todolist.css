@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tillana:wght@500&display=swap');
+
+.sizing{
+    width: 80%!important;
+    margin:auto;
+}
+
+.background-memo{
+    background-image: url('../shared/Images/pngwing.com.png');
+    background-size: cover;
+    padding: 20px;
+    width: 200px;
+    height: 275px;
+    word-wrap: break-word;
+}
+
+.memo-margin {
+    margin-left: 20px;
+
+}
+
+.writing4{
+    font-family: 'Bad Script';
+    font-size: 1em;
+    font-weight: 500;
+}

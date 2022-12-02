@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.writing3{
+    font-family: 'Bad Script';
+    border: none;
+    border-bottom: 2px dashed black;
+    background-color: rgba(245, 222, 179, 0);
+    font-weight:600;
+    font-size: 1.1em;
+}
+
+
+.background-note{
+    background-image: url('../shared/Images/oaktexture.jpg');
+}
