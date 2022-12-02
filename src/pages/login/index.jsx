@@ -20,7 +20,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/login", loginForm)
+      .post("https://comfy-peony-92c203.netlify.app/login", loginForm)
       .then((res) => {
         const { accessToken, id, number} = res.data;
         setCookies("accessToken", accessToken, { maxAge: 3600 });
