@@ -14,7 +14,9 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://to-do-list-be.vercel.app/registration", formData)
+      .post("https://to-do-list-be.vercel.app/registration", {headers: {
+        "Access-Control-Allow-Origin" : "*"
+      }}, formData)
       .then((res) => {
         alert("Registration success!");
         navigate("/login");
