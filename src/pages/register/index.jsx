@@ -14,7 +14,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://to-do-list-be.vercel.app/api/registration", formData)
+      .post("https://to-do-list-be.vercel.app/api/regus", formData)
       .then((res) => {
         alert("Registration success!");
         navigate("/login");
